@@ -1,4 +1,4 @@
-tabletable is about linearize table...
+*TABLETABLE is about linearize table...*
 
 Simple instant linearize table css for mobile device
 
