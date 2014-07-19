@@ -1,0 +1,1 @@
+$.fn.tabletable=function(){var a=[];this.find("tr").eq(0).find("th").each(function(b){a[b]=$(this).html()});this.find("tr").each(function(b){if(b==0){$(this).find("th").each(function(c){a[c]=$(this).html()})}else{$(this).find("td").each(function(c){$(this).attr("data-title",a[c])})}});$(this).addClass("tabletable");return this};
