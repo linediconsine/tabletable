@@ -1,3 +1,4 @@
+
 @media (max-width: 640px){
 
     .tabletable thead {
@@ -11,17 +12,15 @@
         text-align: left;
         white-space: normal;
     }
+
     .tabletable td {
-        padding: 2px 0;
+        padding: 2px 0px;
     }
 
     .tabletable th[data-title]:before,
     .tabletable td[data-title]:before {
         content: attr(data-title) ":\00A0";
         font-weight: bold;
-    }
-    .tabletable td[data-title]:before {
-        width: 40%;
     }
     .tabletable th:not([data-title]) {
         font-weight: bold;

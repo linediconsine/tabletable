@@ -4,137 +4,64 @@
 <head>
     <title></title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="styles/tabletable.css">
+
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/jquery.tabletable.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script  src="scripts/jquery.tabletable.js"></script>
+
+
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+    <script>
+        $( document ).ready(function() {
+            console.log(1);
+            $('table').tabletable();
+        });
+    </script>
 </head>
 <body>
 
 
-<table class="tabletable">
+<table class="mytable">
     <thead>
     <tr>
-        <th scope="col">Name</th>
-        <th scope="col">Email</th>
+        <th scope="col">Title</th>
+        <th scope="col">Aut</th>
         <th scope="col">Dept, Title</th>
         <th scope="col">Phone</th>
     </tr>
     </thead>
     <tbody>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b >test</b>,
-            <b >cavallo</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="">tabletable mail mail</a>
-        </td>
-        <td data-title="Dept, Title">Ninja, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+">123-456-789</a>
-        </td>
+    <tr>
+        <td>Ninja</td>
+        <td>Ninja</td>
+        <td>Ninja</td>
+        <td>1</td>
     </tr>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b class="family-name">Test</b>,
-            <b class="given-name">Ron</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="mailto:prova">sadadasd</a>
-        </td>
-        <td data-title="Dept, Title">Samurai, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+11234567891">cavolicchio</a>
-        </td>
+    <tr>
+        <td>Ninja 1</td>
+        <td>Ninja 2</td>
+        <td>Ninja 3</td>
+        <td>4</td>
     </tr>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b >test</b>,
-            <b >cavallo</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="">tabletable mail mail</a>
-        </td>
-        <td data-title="Dept, Title">Ninja, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+">123-456-789</a>
-        </td>
+
+    <tr>
+        <td>Ninja 1</td>
+        <td>Ninja 2</td>
+        <td>Ninja 3</td>
+        <td>4</td>
     </tr>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b class="family-name">Test</b>,
-            <b class="given-name">Ron</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="mailto:prova">sadadasd</a>
-        </td>
-        <td data-title="Dept, Title">Samurai, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+11234567891">cavolicchio</a>
-        </td>
-    </tr>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b class="family-name">Test</b>,
-            <b class="given-name">Ron</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="mailto:prova">sadadasd</a>
-        </td>
-        <td data-title="Dept, Title">Samurai, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+11234567891">cavolicchio</a>
-        </td>
-    </tr>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b >test</b>,
-            <b >cavallo</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="">tabletable mail mail</a>
-        </td>
-        <td data-title="Dept, Title">Ninja, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+">123-456-789</a>
-        </td>
-    </tr>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b class="family-name">Test</b>,
-            <b class="given-name">Ron</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="mailto:prova">sadadasd</a>
-        </td>
-        <td data-title="Dept, Title">Samurai, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+11234567891">cavolicchio</a>
-        </td>
-    </tr>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b >test</b>,
-            <b >cavallo</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="">tabletable mail mail</a>
-        </td>
-        <td data-title="Dept, Title">Ninja, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+">123-456-789</a>
-        </td>
-    </tr>
-    <tr class="vcard">
-        <th scope="row" class="n" data-title="Name">
-            <b class="family-name">Test</b>,
-            <b class="given-name">Ron</b>
-        </th>
-        <td data-title="Email">
-            <a class="email" href="mailto:prova">sadadasd</a>
-        </td>
-        <td data-title="Dept, Title">Samurai, Director</td>
-        <td class="tel" data-title="Phone">
-            <a href="tel:+11234567891">cavolicchio</a>
-        </td>
+
+    <tr>
+        <td>Ninja 1</td>
+        <td>Ninja 2</td>
+        <td>Ninja 3</td>
+        <td>4</td>
     </tr>
     </tbody>
 </table>
