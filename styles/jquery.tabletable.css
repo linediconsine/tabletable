@@ -1,6 +1,4 @@
 
-@media (max-width: 640px){
-
     .linearize thead {
         display: none;
         visibility: hidden;
@@ -30,6 +28,5 @@
         display: none;
     }
 
-}
 
 

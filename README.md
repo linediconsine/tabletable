@@ -23,9 +23,7 @@ example:
 That's it!
 
 Check it on :
-http://www.ottob.it/share/tabletable/tabletable.html 
+http://www.ottob.it/share/tabletable/tabletable.html
 
-Based on : 
-http://css-tricks.com/examples/ResponsiveTables/responsive.php
 
 
