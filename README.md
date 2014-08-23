@@ -1,6 +1,5 @@
 *TABLETABLE is about linearize table...*
 
-- NOT READY FOR USE NOW -
 
 A query plugin that instant linearize table css for mobile device
 
