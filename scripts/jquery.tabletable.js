@@ -54,5 +54,16 @@ $.fn.tabletable = function() {
         _tabletable.removeClass('linearize');
     }
 
+    /*
+    if(!_tabletable.hasClass('tabletable')){
+        $( window ).on( "orientationchange", function( event ) {
+
+            _tabletable.tabletable();
+        });
+        _tabletable.addClass('tabletable');
+    }
+    */
+
+
     return this;
 }
