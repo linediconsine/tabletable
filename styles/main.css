@@ -3,19 +3,19 @@
  */
 
 
-table{text-align: left;width: 100%}
-table.tabletable{
+table{text-align: left;width: 100%;padding-top: 20px}
+table.linearize{
     border:0;
     border-spacing: 0px;
 }
-table.tabletable td,table.tabletable th{
+table.linearize td,table.linearize th{
     padding: 3px 5px;
     text-align: left;
 }
-table.tabletable th{
+table.linearize th{
     background:#AAA;
 }
-.tabletable tr:nth-child(even)
+.linearize tr:nth-child(even)
 {
     background:#DDD;
 }

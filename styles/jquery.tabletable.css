@@ -1,32 +1,32 @@
 
 @media (max-width: 640px){
 
-    .tabletable thead {
+    .linearize thead {
         display: none;
         visibility: hidden;
     }
 
-    .tabletable tbody, .tabletable tr, .tabletable th, .tabletable td {
+    .linearize tbody, .linearize tr, .linearize th, .linearize td {
         border: 0;
         display: block;
         text-align: left;
         white-space: normal;
     }
 
-    .tabletable td {
+    .linearize td {
         padding: 2px 0px;
     }
 
-    .tabletable th[data-title]:before,
-    .tabletable td[data-title]:before {
+    .linearize th[data-title]:before,
+    .linearize td[data-title]:before {
         content: attr(data-title) ":\00A0";
         font-weight: bold;
     }
-    .tabletable th:not([data-title]) {
+    .linearize th:not([data-title]) {
         font-weight: bold;
     }
 
-    .tabletable td:empty {
+    .linearize td:empty {
         display: none;
     }
 
