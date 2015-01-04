@@ -1,0 +1,29 @@
+/**
+ * Created by Marco Amato on 19/07/14.
+ */
+
+
+table{text-align: left;width: 100%;padding-top: 20px}
+table{
+    border:1;
+    border-spacing: 1px;
+}
+
+table.linearize{
+    border:0;
+    border-spacing: 0px;
+}
+table.linearize td,table.linearize th{
+    padding: 3px 5px;
+    text-align: left;
+}
+table.linearize th{
+    background:#AAA;
+}
+.linearize tr:nth-child(even)
+{
+    background:#DDD;
+}
+body * {
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,35 @@
+
+@media (max-width: 640px){
+
+    .tabletable thead {
+        display: none;
+        visibility: hidden;
+    }
+
+    .tabletable tbody, .tabletable tr, .tabletable th, .tabletable td {
+        border: 0;
+        display: block;
+        text-align: left;
+        white-space: normal;
+    }
+
+    .tabletable td {
+        padding: 2px 0px;
+    }
+
+    .tabletable th[data-title]:before,
+    .tabletable td[data-title]:before {
+        content: attr(data-title) ":\00A0";
+        font-weight: bold;
+    }
+    .tabletable th:not([data-title]) {
+        font-weight: bold;
+    }
+
+    .tabletable td:empty {
+        display: none;
+    }
+
+}
+
+

@@ -1,0 +1,32 @@
+
+    .linearize thead {
+        display: none;
+        visibility: hidden;
+    }
+
+    .linearize tbody, .linearize tr, .linearize th, .linearize td {
+        border: 0;
+        display: block;
+        text-align: left;
+        white-space: normal;
+    }
+
+    .linearize td {
+        padding: 2px 0px;
+    }
+
+    .linearize th[data-title]:before,
+    .linearize td[data-title]:before {
+        content: attr(data-title) ":\00A0";
+        font-weight: bold;
+    }
+    .linearize th:not([data-title]) {
+        font-weight: bold;
+    }
+
+    .linearize td:empty {
+        display: none;
+    }
+
+
+
