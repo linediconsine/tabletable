@@ -2,6 +2,11 @@
 Alpha version. Please use and report any issue :)
 
 
+Click the follow image for video preview :
+
+[![click here to video preview](http://img.youtube.com/vi/jbueebtrOI0/0.jpg)](http://www.youtube.com/watch?v=jbueebtrOI0)
+
+
 A Jquery plugin that instant linearize table
 
 How it work :
